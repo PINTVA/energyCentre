@@ -4,14 +4,14 @@
       <img :src="img1" slot="icon">
       首页
     </mt-tab-item>
-    <!--<mt-tab-item class="tab-item" id="报表">-->
-      <!--<img :src="img2" slot="icon">-->
-      <!--报表-->
-    <!--</mt-tab-item>-->
-    <!--<mt-tab-item class="tab-item" id="车间">-->
-      <!--<img :src="img3" slot="icon">-->
-      <!--车间-->
-    <!--</mt-tab-item>-->
+    <mt-tab-item class="tab-item" id="报表">
+      <img :src="img2" slot="icon">
+      报表
+    </mt-tab-item>
+    <mt-tab-item class="tab-item" id="车间">
+      <img :src="img3" slot="icon">
+      车间
+    </mt-tab-item>
     <mt-tab-item class="tab-item" id="我的">
       <img :src="img4" slot="icon">
       我的
