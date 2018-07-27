@@ -12,14 +12,14 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/dev':{
-        target:'http://106.75.167.120:8085/energyCentre',
+        target:'http://106.75.167.000:8085/energyCentre',
         changeOrigin: true,
         pathRewrite:{
           '^/dev':''
         }
       },
       '/api':{
-        target:'http://106.75.167.120:8083/energyCentre',
+        target:'http://106.75.167.000:8083/energyCentre',
         changeOrigin: true,
         pathRewrite:{
           '^/api':''
